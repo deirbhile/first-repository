@@ -4,7 +4,7 @@ Description: take integer value and return it in reverse
 Created on: 14/03/18
 Created by: Deirbhile Tuohy
 **/
-public class SecondArray{
+public class SecondArray1{
 
   public static void main(String [] args){
 	  int[] x = int{128, 132, 8, 156, 18};
