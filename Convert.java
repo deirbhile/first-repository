@@ -19,11 +19,11 @@ import java.util.Scanner;
 
 			 switch(select){
 				 case 1:
-				 System.out.printf("%d Fahrenheit is %d Celsius\n",temp, celsius(temp));
+				 System.out.printf("%d Fahrenheit is %d Celsius\n",temp * celsius(temp));
 				 break;
 
 				 case 2:
-				 System.out.printf("%d Celsius is %d Fahrenheit\n",temp,fahrenheit(temp));
+				 System.out.printf("%d Celsius is %d Fahrenheit\n",temp *fahrenheit(temp));
 				 break;
 	}
 }
@@ -35,9 +35,10 @@ import java.util.Scanner;
  }
  public static int celsius (int fahrenheitTemp){
 	 return((int) (5.0/9.0 * (fahrenheitTemp - 32)));
+	 Index.main(null);
 }
  }
- Index.main(null);
+
 
 
 

@@ -17,7 +17,9 @@ public class Index{
     System.out.println("8. Try and Catch");
     System.out.println("9. Enhanced For");
     System.out.println("10. Multidimentional Array");
-    System.out.println("11. Exit");
+    System.out.println("11. Convert");
+    System.out.println("12. Search");
+    System.out.println("13. Exit");
     System.out.println();
 
     System.out.print("Choice: ");
@@ -74,7 +76,17 @@ public class Index{
 					 System.out.println();
 					 TwoD_Array.main(null);
         break;
-         case 11:
+        case 11:
+					System.out.println("Convert lab");
+					System.out.println();
+					Convert.main(null);
+        break;
+        case 12:
+				   System.out.println("Multidimensional lab");
+				   System.out.println();
+				   Search.main(null);
+        break;
+         case 13:
 		       System.out.println("Exiting....");
 		    break;
 		  default:
