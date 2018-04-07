@@ -5,7 +5,7 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-11):");
+    System.out.println("Select an option (1-13):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
@@ -17,8 +17,8 @@ public class Index{
     System.out.println("8. Try and Catch");
     System.out.println("9. Enhanced For");
     System.out.println("10. Multidimentional Array");
-    System.out.println("11. Convert");
-    System.out.println("12. Search");
+    System.out.println("11. Project Excercise 1");
+    System.out.println("12. Project Excercise 2");
     System.out.println("13. Exit");
     System.out.println();
 
@@ -65,24 +65,24 @@ public class Index{
 					 System.out.println("Try And Catch lab");
 					 System.out.println();
 					 TryCatch.main(null);
-	 break;
+	   break;
 		case 9:
 					 System.out.println("Enhanced for lab");
 					 System.out.println();
 					 EnhancedFor.main(null);
-					  break;
+		break;
 		case 10:
 					 System.out.println("Multidimensional lab");
 					 System.out.println();
 					 TwoD_Array.main(null);
         break;
         case 11:
-					System.out.println("Convert lab");
+					System.out.println("Project Excercise 1");
 					System.out.println();
 					Convert.main(null);
         break;
         case 12:
-				   System.out.println("Multidimensional lab");
+				   System.out.println("Project Excercise 2");
 				   System.out.println();
 				   Search.main(null);
         break;
