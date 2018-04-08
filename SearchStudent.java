@@ -21,7 +21,7 @@ public class SearchStudent{
          if(match == 1){
          System.out.println("Name\t\tCollege");
          }
-         System.out.println(students[i][0]+"\t""+students[i][3]");
+         System.out.println(students[i][0]+"\t"+students[i][3]);
      }
      }
      }
