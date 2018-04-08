@@ -1,3 +1,12 @@
+/**
+Name: Try Catch
+Description:  try and catch block
+Created on: 14/03/18
+Created by: Deirbhile Tuohy
+**/
+
+
+
 public class TryCatch{
 public static void main(String[] args){
 

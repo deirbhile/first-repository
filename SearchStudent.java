@@ -1,6 +1,15 @@
+/**
+Name: Search Student
+Description: search student info and recieve info back
+Created on: 14/03/18
+Created by: Deirbhile Tuohy
+**/
+
+
 import java.util.Scanner;
 public class SearchStudent{
    public static void main(String [] args){
+
      String[][] students = {
      {"Mary Reilly", "Software Development", "Year 1", "GMIT"},
      {"Garrett Winters", "Business Studies", "Year 3", "AIT"},

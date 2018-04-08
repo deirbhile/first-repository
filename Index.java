@@ -1,3 +1,12 @@
+/**
+Name: Index
+Description: Create a java code with a number of other codes linked to iy
+Created on: 14/03/18
+Created by: Deirbhile Tuohy
+**/
+
+
+
 // for project - menu choice will invoke another class
 import java.util.Scanner;
 

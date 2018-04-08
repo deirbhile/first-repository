@@ -20,11 +20,10 @@ public class Shadow{
 	   int globalVar(){
 		   return this.x;
 
-	   }
+}
 
 	   int localVar(){
 		   int x = 2;
 		   return x;
-
-   }
+}
 }

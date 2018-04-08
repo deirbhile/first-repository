@@ -1,3 +1,12 @@
+/**
+Name: First Switch
+Description: Enter a number and switch its outcome
+Created on: 14/03/18
+Created by: Deirbhile Tuohy
+**/
+
+
+
 import java.util.Scanner;
 
 public class FirstSwitch{
